@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Icons
 import 'remixicon/fonts/remixicon.css';
@@ -20,6 +20,9 @@ import Unity from '../assets/images/certificates/unity.png';
 import Wantech from '../assets/images/certificates/wantech.jpg';
 
 const Certificate = () => {
+    useEffect(() => {
+        document.title = "Certificate | Raga Ridzki Panuntun"
+    }, []);
     return (
         <div>
             <Navbar />
@@ -37,82 +40,82 @@ const Certificate = () => {
                         {/* <!-- Certificate Item 1 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={PKL} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Winnership</h3>
-                                    <p class="text-sm text-center mt-2">Certificate of 6 months internship at PT Wesclic Indonesia Neotech.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Winnership</h3>
+                                <p class="text-sm text-center mt-2">Certificate of 6 months internship at PT Wesclic Indonesia Neotech.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 2 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={DicodingJs} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Dicoding</h3>
-                                    <p class="text-sm text-center mt-2">Dicoding bootcamp certificate on learning basic javascript programming.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Dicoding</h3>
+                                <p class="text-sm text-center mt-2">Dicoding bootcamp certificate on learning basic javascript programming.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 3 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={DicodingSoftware} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Dicoding</h3>
-                                    <p class="text-sm text-center mt-2">Dicoding bootcamp certificate on researching a career as a software developer.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Dicoding</h3>
+                                <p class="text-sm text-center mt-2">Dicoding bootcamp certificate on researching a career as a software developer.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 4 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={Unity} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Unity Essentials Pathway</h3>
-                                    <p class="text-sm text-center mt-2">Unity bootcamp certificate on the basics of using unity, and working on mini game projects.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Unity Essentials Pathway</h3>
+                                <p class="text-sm text-center mt-2">Unity bootcamp certificate on the basics of using unity, and working on mini game projects.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 5 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={ProgateGit} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Progate</h3>
-                                    <p class="text-sm text-center mt-2">Progate bootcamp certificate on git fundamentals.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Progate</h3>
+                                <p class="text-sm text-center mt-2">Progate bootcamp certificate on git fundamentals.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 6 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={ProgateCmd} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Progate</h3>
-                                    <p class="text-sm text-center mt-2">Progate bootcamp certificate on UNIX fundamentals. Command Line.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Progate</h3>
+                                <p class="text-sm text-center mt-2">Progate bootcamp certificate on UNIX fundamentals. Command Line.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 7 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={K3LH} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">International Labour Organization</h3>
-                                    <p class="text-sm text-center mt-2">Occupational health and safety e-learning certificate</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">International Labour Organization</h3>
+                                <p class="text-sm text-center mt-2">Occupational health and safety e-learning certificate</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 8 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={Wantech} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Wantech Indonesia</h3>
-                                    <p class="text-sm text-center mt-2">Certificate of participation in frontend developer bootcamp using Vue.js framework.</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Wantech Indonesia</h3>
+                                <p class="text-sm text-center mt-2">Certificate of participation in frontend developer bootcamp using Vue.js framework.</p>
+                            </div>
                         </div>
 
                         {/* <!-- Certificate Item 9 --> */}
                         <div class="relative group overflow-hidden rounded-lg shadow-lg">
                             <img src={Cyberlabs} alt="Certificate Image" class="w-full h-auto" />
-                                <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                                    <h3 class="text-lg font-semibold">Cyberlabs</h3>
-                                    <p class="text-sm text-center mt-2">Certificate of participation in backend developer bootcamp activities using the Express.js framework</p>
-                                </div>
+                            <div class="absolute inset-0 bg-primary bg-opacity-70 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                                <h3 class="text-lg font-semibold">Cyberlabs</h3>
+                                <p class="text-sm text-center mt-2">Certificate of participation in backend developer bootcamp activities using the Express.js framework</p>
+                            </div>
                         </div>
                     </div>
                 </div>

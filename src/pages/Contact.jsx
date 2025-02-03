@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 // EmailJs
 import emailjs from '@emailjs/browser';
@@ -12,6 +12,9 @@ import Sidebar from '../assets/components/Sidebar';
 import Footer from '../assets/components/Footer';
 
 const Contact = () => {
+    useEffect(() => {
+        document.title = "Contact | Raga Ridzki Panuntun"
+    }, []);
     const form = useRef();
     const [isSending, setIsSending] = useState(false);
 
@@ -20,9 +23,9 @@ const Contact = () => {
         setIsSending(true);
 
         emailjs.sendForm(
-            'service_ynzy032', 
-            'template_5m4kv0w', 
-            form.current, 
+            'service_ynzy032',
+            'template_5m4kv0w',
+            form.current,
             'o_B7NehgZLyVH0sIk'
         ).then(
             () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 // Icons
 import 'remixicon/fonts/remixicon.css';
@@ -17,6 +17,9 @@ import Apotek from '../assets/images/projects/apotek.png';
 import Masjid from '../assets/images/projects/masjid.png';
 
 const Project = () => {
+    useEffect(() => {
+        document.title = "Project | Raga Ridzki Panuntun"
+    }, []);
     return (
         <div>
             <Navbar />

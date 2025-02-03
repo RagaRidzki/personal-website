@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Framer Motion
 import { motion } from "framer-motion";
@@ -28,6 +28,9 @@ import Tailwind from '../assets/images/techstacks/tailwind.svg'
 import CV from "../assets/cv/Raga Ridzki Panuntun.pdf"
 
 const About = () => {
+    useEffect(() => {
+        document.title = "About | Raga Ridzki Panuntun"
+    }, []);
     const techStacks = [
         { img: HTML, name: "HTML" },
         { img: CSS, name: "CSS" },

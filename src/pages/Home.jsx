@@ -16,6 +16,8 @@ import CV from "../assets/cv/Raga Ridzki Panuntun.pdf"
 
 const App = () => {
     useEffect(() => {
+        document.title = "Personal Web | Raga Ridzki Panuntun"
+
         const options = {
             strings: [
                 "Fullstack Developer",
