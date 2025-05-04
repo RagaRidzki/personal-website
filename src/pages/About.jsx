@@ -25,7 +25,7 @@ import PHP from '../assets/images/techstacks/php.svg'
 import Tailwind from '../assets/images/techstacks/tailwind.svg'
 
 // Cv
-import CV from "../assets/cv/Raga Ridzki Panuntun.pdf"
+import CV from "../assets/cv/Raga Ridzki Panuntun - Curriculum Vitae.pdf"
 
 const About = () => {
     useEffect(() => {

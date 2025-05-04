@@ -12,7 +12,7 @@ import Sidebar from '../assets/components/Sidebar';
 import Footer from '../assets/components/Footer';
 
 // Cv
-import CV from "../assets/cv/Raga Ridzki Panuntun.pdf"
+import CV from "../assets/cv/Raga Ridzki Panuntun - Curriculum Vitae.pdf"
 
 const App = () => {
     useEffect(() => {
